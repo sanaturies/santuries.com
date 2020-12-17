@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta charset=utf-8;>
+       <title>dev</title>
+       <style>
+           #b{
+                background-repeat: no-repeat;
+                background-position:center;
+                 width: 80%;
+                height: 350px;
+                color:rgb(8, 8, 8);
+                 float:right;
+                 font-family:cooper;
+                 margin-top: -27px;
+                 text-align: center;
+                 z-index: 1;
+            }
+       </style>
+    </head>
+
+<h1 style="font-family: cooper;">I hope it works!</h1>
+<!--<img src=url("./myimages/europeana-5TK1F5VfdIk-unsplash.jpg") height="200" alt="i did it!">-->
+<!--<img src="https://www.kasandbox.org/programming-images/animals/dogs_collies.png" height="150">-->
+<img src="" width="1003">
+       <!-- <script>
+            var imageEls = document.getElementsByTagName("img");
+            for (var i = 0; i < imageEls.length; i++) {
+                imageEls[i].src = "https://www.kasandbox.org/programming-images/animals/cat.png";
+            }-->
+            <img src="https://www.kasandbox.org/programming-images/animals/dogs_collies.png" height="150">
+<script>   
+     var imageEls= document.getElementsByTagName("img");
+    
+     for (var i = 0; i < imageEls.length; i++) {
+                 console.log("here")
+                 imageEls[i].src = "./myimages/europeana-5TK1F5VfdIk-unsplash.jpg";
+                 /*imageEls.style.width=50;*/
+ }
+ var b= document.getElementsByTagName('b')
+ document.body.appendChild('b');
+ b.appendChild(imageEls[0]);
+ </script>
+   
+</script>
+</body>
+</html>
