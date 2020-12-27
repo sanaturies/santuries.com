@@ -2,21 +2,18 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Remember Art</title>
+        <title>santuries</title>
+        <script>
+            
+            let logo = document.querySelector(logo);
+
+logo.addEventListener('load', (event) => {
+    console.log('Logo has been loaded!');
+});
+
+logo.src = "./myimages/europeana-5TK1F5VfdIk-unsplash.jpg"
+        </script>
         <style>
-            /*#b{
-               background-image: url("./myimages/europeana-5TK1F5VfdIk-unsplash.jpg");
-                background-repeat: no-repeat;
-                background-position:center;
-                 width: 80%;
-                height: 350px;
-                color:rgb(8, 8, 8);
-                 float:right;
-                 font-family:cooper;
-                 margin-top: -27px;
-                 text-align: center;
-                 z-index: 1;
-            }*/
             
             h1{
                 font-family:cooper;
@@ -50,11 +47,10 @@
                 width:80%;
                  font-family:cooper;
                  font-size: 30px;
-                 height:218px;
                  z-index:1;
             }
            
-             /*.e{
+             .e{
                margin-top: -38px; 
                 background-color:palegreen;
                  font-family:cooper;
@@ -63,7 +59,7 @@
                  float:right;
                  width: 78%;
                  z-index: 1;
-             }*/
+             }
             div p{
                
                  font-family:century;
@@ -75,60 +71,66 @@
                 font-family:calibri;
                  font-size: 14px;
             }
-            #tat{
+            .tat{
                 background-color:rgb(253, 239, 191);
                 float:left;
                 width:20%;
-                height: 617px;
-                /*margin-right:0px;*/
+                height:150%;
+                position: absolute;
                 font-size: 40px;
                 z-index: 0;
+                
             }
-            #tat p{
+            .tat p{
                 font-family: cooper;
                 padding-top: 200px;
                 font-size: 20px;
             }
-           
+           .g{
+            -webkit-text-stroke: 2px black;
+            text-align: center;
+           }
+           #j{
+               background-color:rgb(250, 232, 129) ;
+               text-align:center;
+               font-family:century;
+                float:right;
+                width:80%
+           }
         </style>
     </head>
     <body>
-        <div id='tat'>
+        <div class="tat">
             <p><a href="tips and tricks.html">tips and tricks</a> <br>
-                <a href="animations.html">animations</a><br>
+                <a href="animations/animations.html">animations</a><br>
                 <a href="about.html"> about me</a><br>
-                <a href="development.html">development</a>
-            </p>
+                <!--<a href="development.html">development</a>-->
+               
+                <a href="https://github.com/sanaturies">check out my github!</a><br>
+                 <a href="https://repl.it/@sanaturies">check out my repls!</a></p>
+           
         </div>
    <div id="a">
-   <h1>remember art </h1>
+   <h1>Santuries </h1>
    </div>
    <div id="b"> 
-    <h1> Century</h1>
-    <h4> Artist & Animator</h4>
+    <h1 class='g'> Santuries</h1>
+    <h2 class='g'> Artist & Animator</h4>
    </div>
        <div id="c">
-          <h1>my art<br></h1>
-           <p> Coming Soon!</p>
+          <h1>my art</h1>
+          <a href="myimages/one.html" target='_blank'><img src="myimages/2020-12-25.jpg" alt="my art" height="200px"></a>
+          <a href="myimages/two.html" target="_blank"><img  src="myimages/beamer boy.jpg" alt="my art" height="200px"></a>
+          <a href="myimages/three.html" target="_blank"><img  src="myimages/childhood.jpg" alt="my art" height="200px"></a>
+          <a href="myimages/four.html" target="_blank"><img src="myimages/girl in tree.jpg" alt="my art" height="200px"></a>
+          <a href="myimages/five.html" target="_blank"><img src="myimages/mohogany.jpg" alt="my art" height="200px"></a>
+          <a href="myimages/six.html" target="_blank"><img src="myimages/roman statue.jpg" alt="my art" height="200px"></a>
+          <a href="myimages/seven.html" target="_blank"><img src="myimages/sad vibes.jpg" alt="my art" height="200px"></a>
        </div>
-           </div>
-       </div>
+           
    
-<!--<img src="./myimages/europeana-5TK1F5VfdIk-unsplash.jpg" onload="loadImage()" width="100" height="132">
-<img src="https://www.kasandbox.org/programming-images/animals/dogs_collies.png" height="150">-->
-<!--<script>    
-     var imageEls= document.getElementsByTagName("img");
+<script>
     
-     for (var i = 0; i < imageEls.length; i++) {
-                 console.log("here")
-                 imageEls[i].src = "./myimages/europeana-5TK1F5VfdIk-unsplash.jpg";
-                 /*imageEls.style.width=50;*/
- }
- var b= document.getElementsByTagName('b')
- document.body.appendChild('b');
- b.appendChild(imageEls[1]);
- </script>-->
-
 
 </script>
     
