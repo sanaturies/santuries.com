@@ -43,7 +43,7 @@
             "name": "Launch Edge",
             "request": "launch",
             "type": "pwa-msedge",
-            "url": "C:\\Users\\neetu\\OneDrive\\Documents\\GitHub\\Myarts\\chapter1\\remember art.html",
+            "url": "C:\\Users\\neetu\\OneDrive\\Documents\\GitHub\\Myarts\\chapter1\\home.html",
             "webRoot": "${workspaceFolder}"
         },
         {
@@ -57,7 +57,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:\\Users\\neetu\\OneDrive\\Documents\\GitHub\\Myarts\\chapter1\\remember art.html",
+            "url": "C:\\Users\\neetu\\OneDrive\\Documents\\GitHub\\Myarts\\chapter1\\home.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
