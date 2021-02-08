@@ -1,13 +1,13 @@
 
 var canvas= document.getElementById('can');
 var ctx = canvas.getContext("2d");
-ctx.font = "30px cooper";
+ctx.font = "30px rockwell";
 ctx.fillText("paint here", 10, 50);
 function myfunc (event) {
     document.body.appendChild(canvas);
    console.log(event.clientX);
 var x = event.offsetX;
- var y = event.offsetY;
+var y = event.offsetY;
 console.log("x: " + x + " y: " + y);
 ctx.beginPath();
 ctx.arc(x, y, 10, 0, 2 * Math.PI);
