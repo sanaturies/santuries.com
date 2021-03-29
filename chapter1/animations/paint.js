@@ -1,7 +1,7 @@
 
 var canvas= document.getElementById('can');
 var ctx = canvas.getContext("2d");
-ctx.font = "30px rockwell";
+ctx.font = "30px Keep on Truckin";
 ctx.fillText("paint here", 10, 50);
 function myfunc (event) {
     document.body.appendChild(canvas);
