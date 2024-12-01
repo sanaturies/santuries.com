@@ -1,1 +1,1 @@
-# check out my website at santuries.com
+# check out my website at https://sanaturies.github.io/santuries.com/
